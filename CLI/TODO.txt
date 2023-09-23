@@ -1,1 +1,7 @@
-
+Create The CLI Engine
+Add sysok and exit
+Add home
+Add Fstream functions
+Add Manager
+Add IK controller
+Add systest command with flags -IK, -MG and -FS
