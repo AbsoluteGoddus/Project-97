@@ -1,0 +1,17 @@
+usg:
+libMATH,
+lib3D,
+libIK,
+libCNS,
+libNET
+end usg
+scr:
+vworld world(3D);
+point3 target(0, 0, 0);
+world.addP(target);
+IK myIK(std);
+myIK.addW(world);
+myIK.setTarget(target, world);
+myIK.update();
+myIK.returnToNetwork(std);
+end scr
